@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+html {
+    font-size: 62.5%;
+}
+
+*,
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+#root {
+    @import "Header";
+    @import "Total";
+    .app-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        @import "Element";
+    }
+    @import "Receipt";
+    @media screen and (max-width: 560px) {
+        .total {
+            display: flex;
+            flex-direction: column;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            padding: 1rem;
+            padding-top: 3rem;
+        }
+
+        .percentageLeft {
+            margin-top: 1rem;
+        }
+
+        .percentageLeft,
+        .totalMoney {
+            font-size: 1.9rem;
+            margin: 0;
+        }
+
+        .receipt {
+            padding: 1px;
+        }
+        .receipt p {
+            font-size: 1.1rem;
+            padding: 0.4rem;
+        }
+    }
+}

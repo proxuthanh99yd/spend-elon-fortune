@@ -1,0 +1,52 @@
+.receipt {
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    p {
+        font-size: 2rem;
+        padding: 0.5rem;
+        strong {
+            font-size: 2.4rem;
+        }
+    }
+    .totalRecipt {
+        font-size: 2.5rem;
+        text-decoration: underline;
+        padding: 1rem;
+    }
+}
+
+.btn-print {
+    display: block;
+    text-align: center;
+
+    button {
+        cursor: pointer;
+        padding: 1.5rem 2rem;
+        font-family: "Poppins", sans-serif;
+        border: none;
+        border-radius: 5px;
+        margin: 1.5rem;
+        background-color: rgba(83, 90, 95, 1);
+        color: white;
+        &:hover {
+            background-color: rgb(125, 135, 143);
+            color: white;
+        }
+    }
+}
+.coffe-link {
+    text-align: center;
+    display: block;
+    font-size: 1.7rem;
+    margin: 3rem;
+    a {
+        text-decoration: none;
+        color: rgb(16, 209, 145);
+        text-decoration: underline;
+    }
+}

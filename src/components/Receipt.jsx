@@ -34,7 +34,7 @@ function Receipt({ carts, products }) {
             </a>
             <div className="coffe-link">
                 <small>
-                    Created by Nino
+                    Clone by LeeTam
                     <br />
                 </small>
             </div>

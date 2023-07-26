@@ -1,7 +1,7 @@
 function Header() {
     return (
         <header>
-            <img src="https://i.imgur.com/sroyZau.jpg" alt="Elon Musk's" />
+            <img src="./images/elon_musk.jpg" alt="Elon Musk's" />
             <div className="title-container">
                 <h1>Spend Elon Musk&apos;s Fortune!</h1>
                 <p>
